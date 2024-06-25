@@ -19,7 +19,7 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/sateeshbalaji" />
+        tools:srcCompat="@drawable/applogoj" />
     <TextView
             android:text="@string/str_ln_titlebold"
             android:layout_width="wrap_content"

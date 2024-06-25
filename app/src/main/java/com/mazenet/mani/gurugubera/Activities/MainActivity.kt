@@ -18,7 +18,7 @@ class MainActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.splash)
         initDb()
-        spalsh.setImageResource(R.drawable.sateeshbalaji)
+        spalsh.setImageResource(R.drawable.applogoj)
 
                 System.out.println("inside permission success ")
                 Handler().postDelayed({

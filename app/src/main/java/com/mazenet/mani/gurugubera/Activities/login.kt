@@ -80,7 +80,7 @@ class login : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
-        img_userimage.setImageResource(R.drawable.sateeshbalaji)
+        img_userimage.setImageResource(R.drawable.applogoj)
         masterdb = DatabaseMasters(this@login)
         mBtnSignin = findViewById(R.id.btn_ln_signin) as IndeterminateProgressButton
         v = getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
@@ -360,7 +360,7 @@ class login : BaseActivity() {
                     // If your app doesn't have this permission, then display the following text//
                     Constants.showToast(Constants.str_enable_fingerprint_permission.toString(), this@login)
                     fingerprint_layout.visibility = View.GONE
-                } else {
+                } else { 
                     //Check that the user has registered at least one fingerprint//
                     if (!fingerprintManager!!.hasEnrolledFingerprints()) {
                         // If the user hasn’t configured any fingerprints, then display the following message//

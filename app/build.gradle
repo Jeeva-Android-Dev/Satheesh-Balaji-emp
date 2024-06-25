@@ -37,7 +37,7 @@ android {
             debuggable true
             android.defaultConfig.vectorDrawables.useSupportLibrary = true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            buildConfigField 'String','server_url','"https://mazechit.in/satheesh_balaji/backend/api/"'
+            buildConfigField 'String','server_url','"https://mazechit.in/my-chits/backend/api/"'
         }
         release {
             minifyEnabled true
@@ -45,7 +45,7 @@ android {
             debuggable false
             android.defaultConfig.vectorDrawables.useSupportLibrary = true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            buildConfigField 'String','server_url','"https://mazechit.in/satheesh_balaji/backend/api/"'
+            buildConfigField 'String','server_url','"https://mazechit.in/my-chits/backend/api/"'
         }
     }
 

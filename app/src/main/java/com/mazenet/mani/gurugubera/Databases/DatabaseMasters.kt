@@ -992,7 +992,7 @@ class DatabaseMasters(context: Context) : SQLiteOpenHelper(context, DATABASE_NAM
     companion object {
 
         private val DATABASE_VERSION = 1
-        private val DATABASE_NAME = "satheesh_balaji"
+        private val DATABASE_NAME = "krishna_chits"
 
         private val Table_Tenants = "tenants_table"//Tenants Table
         private val KEY_ID = "incid"
